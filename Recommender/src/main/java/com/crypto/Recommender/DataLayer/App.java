@@ -14,8 +14,8 @@ import static org.crypto.ReadValues.showCrypto;
  *
  */
 public class App {
-    public static void main(String[] args) {
+ /*   public static void main(String[] args) {
         showCrypto();
-    }
+    }*/
 
 }

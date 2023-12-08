@@ -73,7 +73,7 @@ public class ReadValues {
 
     public static void gasesteMinimul(String file) {
 
-        int min = 0, max = 0;
+        int min = 0, max = 0, number = 0;
         boolean ok = false;
         try {
             FileReader filereader = new FileReader(file);
@@ -84,7 +84,7 @@ public class ReadValues {
             for (String[] row : allData) {
                 for (String cell : row) {
                     if(cell!="symbol") {
-                        int number = Integer.parseInt(cell);
+                      //  number = Integer.parseInt(cell);
                         if (!ok) {
                             min = number;
                             max = number;
